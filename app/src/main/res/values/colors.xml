@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="APPBcolor">#e9eef4</color>
+    <color name="APPBcolor1">#699c9c</color>
+    <color name="APPBcolor2">#ffffff</color>
+    <color name="APPBcolor3">#fff25e</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@color/APPBcolor1"
+    tools:context="com.wangsijiu.app.activity.SelfInfoActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="易班信息"
+            android:textSize="20dp"
+            android:gravity="center_horizontal"/>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter"
+            android:padding="10dp"
+            android:id="@+id/back2"
+            android:src="@drawable/back"
+            android:layout_alignParentLeft="true"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.3"
+        android:background="#333"></LinearLayout>
+    <com.wangsijiu.app.InfoLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/yb_id"></com.wangsijiu.app.InfoLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.3"
+        android:background="#333"></LinearLayout>
+
+    <com.wangsijiu.app.InfoLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/yb_name"></com.wangsijiu.app.InfoLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginBottom="10dp"
+        android:alpha="0.3"
+        android:background="#333"></LinearLayout>
+
+    <com.wangsijiu.app.InfoLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/yb_money"></com.wangsijiu.app.InfoLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:layout_marginBottom="10dp"
+        android:background="#333"></LinearLayout>
+
+    <com.wangsijiu.app.InfoLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/yb_exp"></com.wangsijiu.app.InfoLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:layout_marginBottom="10dp"
+        android:background="#333"></LinearLayout>
+
+    <com.wangsijiu.app.InfoLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:id="@+id/yb_school"></com.wangsijiu.app.InfoLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:alpha="0.3"
+        android:layout_marginBottom="10dp"
+        android:background="#333"></LinearLayout>
+
+
+
+</LinearLayout>
